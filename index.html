@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sorteio online</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="imagem">
+      <img src = "images/sorteio.jpg" class="img-sorteio"> 
+    </div>
+
+    <section>
+    <div class="div">
+    <p class="conteudo-escrito"> Vamos sortear!</p>
+    <p class="conteudo-escrito">Digite o valor mínimo do sorteio<input type="number" name="minimo" id="minimo"></p>
+    <p class="conteudo-escrito">Digite o valor maximo do sorteio<input type="number" name="maximo" id="maximo"></p>
+    
+    <div class="div-bt">
+    <button onclick="sorteio()" class="bt">Sortear</button>
+    </div>
+
+    </div>
+
+    <h1 id="resultado" class="resultado"></h1>
+     </section>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
